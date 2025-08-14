@@ -16,7 +16,7 @@ export default function Sidebar({
     >
       <div className="flex items-center justify-between p-4 border-b">
         <button
-          className="p-1 hover:bg-gray-200 rounded"
+          className="p-3 hover:bg-gray-200 rounded"
           onClick={onClose}
         >
           ☰

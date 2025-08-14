@@ -7,7 +7,7 @@ export default function Topbar({ onMenuClick }: { onMenuClick: () => void }) {
       {/* Left side */}
       <div className="flex flex-row gap-3 items-center">
         <button
-          className="p-1 hover:bg-gray-200 rounded"
+          className="p-3 hover:bg-gray-200 rounded"
           onClick={onMenuClick}
         >
           ☰
@@ -15,7 +15,6 @@ export default function Topbar({ onMenuClick }: { onMenuClick: () => void }) {
         <div className="font-bold">Logo</div>
       </div>
 
-      {/* Right side */}
       <div className="flex flex-row gap-3 items-center">
         <button className="px-2 py-1 border rounded">Sign In</button>
         <div>User Profile</div>
